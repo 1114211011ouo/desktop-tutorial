@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>文藻小書店</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div id="bookstoreCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#bookstoreCarousel" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#bookstoreCarousel" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#bookstoreCarousel" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#bookstoreCarousel" data-bs-slide-to="3"></button>
+      <button type="button" data-bs-target="#bookstoreCarousel" data-bs-slide-to="4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://picsum.photos/1200/400?random=1" class="d-block w-100" alt="書籍輪播圖 1">
+      </div>
+      <div class="carousel-item">
+        <img src="https://picsum.photos/1200/400?random=2" class="d-block w-100" alt="書籍輪播圖 2">
+      </div>
+      <div class="carousel-item">
+        <img src="https://picsum.photos/1200/400?random=3" class="d-block w-100" alt="書籍輪播圖 3">
+      </div>
+      <div class="carousel-item">
+        <img src="https://picsum.photos/1200/400?random=4" class="d-block w-100" alt="書籍輪播圖 4">
+      </div>
+      <div class="carousel-item">
+        <img src="https://picsum.photos/1200/400?random=5" class="d-block w-100" alt="書籍輪播圖 5">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#bookstoreCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#bookstoreCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+  <div class="accordion" id="bookstoreAccordion">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+          書籍項目 1
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#bookstoreAccordion">
+        <div class="accordion-body">
+          這個可以寫甚麼ㄚ??
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+          書籍項目 2
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#bookstoreAccordion">
+        <div class="accordion-body">
+          不知道欸
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+          書籍項目 3
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#bookstoreAccordion">
+        <div class="accordion-body">
+          有點詞窮
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFour">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour">
+          書籍項目 4
+        </button>
+      </h2>
+      <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#bookstoreAccordion">
+        <div class="accordion-body">
+          嗨老師
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFive">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive">
+          書籍項目 5
+        </button>
+      </h2>
+      <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#bookstoreAccordion">
+        <div class="accordion-body">
+          老師有看到嗎
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap 5 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
